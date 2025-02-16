@@ -6,9 +6,17 @@ body {
     background-color: #1F2937;
 }
 
+.logo, 
+.hero-main {
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+}
+
 .hero-main {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 
@@ -17,3 +25,4 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
