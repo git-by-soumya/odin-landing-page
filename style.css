@@ -112,3 +112,21 @@ button {
 .img-content .subtext {
     text-align: center;
 }
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 120px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+    font-weight: lighter;
+}
+
+.quote-credit {
+    text-align:end;
+    font-weight: bold;
+    font-size: 20px;
+}
