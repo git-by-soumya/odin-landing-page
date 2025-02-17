@@ -1,9 +1,18 @@
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 .section1 {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo, 
@@ -13,6 +22,22 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-content {
+    display: flex;
+    margin: 100px 0;
+    gap: 30px;
 }
 
 .hero-main {
@@ -26,3 +51,32 @@ a {
     color: #E5E7EB;
 }
 
+img, 
+.hero-text {
+    flex: 1;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+button {
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+img {
+    background-color: rgb(109 116 125);
+    color: rgb(248 248 249);
+    height: auto;
+    align-content: center;
+    text-align: center;
+}
