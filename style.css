@@ -130,3 +130,23 @@ button {
     font-weight: bold;
     font-size: 20px;
 }
+
+.section4 {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    color: white;
+}
+
+.section4 button {
+    border: solid;
+    border-color: white;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 24px;
+}
