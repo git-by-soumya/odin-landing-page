@@ -68,7 +68,7 @@ a {
 button {
     align-self: flex-start;
     background-color: #3882F6;
-    color: white;
+    color: #430000;
     border: none;
     padding: 10px 25px;
     border-radius: 10px;
@@ -145,7 +145,7 @@ button {
     margin: 120px 200px;
     padding: 50px 100px;
     border-radius: 10px;
-    color: white;
+    color: #430000;
     flex-wrap: wrap;
 }
 
